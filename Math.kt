@@ -1,5 +1,6 @@
 
 // Math Functions
+// ==============
 
 // Math.pow() returns the first value raised to the power of the second value. It accepts and returns Double values.
 
@@ -36,5 +37,3 @@ Math.abs(-20) // 20
 // Math.floor() accepts a Double value and returns the largest value that is less than or equal to it.
 
 Math.floor(6.9) // 6.0
-
-*/
