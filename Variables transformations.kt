@@ -8,7 +8,7 @@
 .toLong()
 .toFloat()
 .toDouble()
-.toBigInteger(radix)
+.toBigInteger()
 .toBigDecimal()
 
 .toBoolean
