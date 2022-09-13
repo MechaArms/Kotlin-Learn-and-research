@@ -1,4 +1,4 @@
-[![Kotlin Badge](https://img.shields.io/badge/kotlin-v1.710-884dff?style=flat-square&logo=Kotlin)](https://kotlinlang.org)
+[![Kotlin Badge](https://img.shields.io/badge/Kotlin-v1.710-884dff?style=flat-square&logo=Kotlin)](https://kotlinlang.org)
 
 #Research Tips:
 
