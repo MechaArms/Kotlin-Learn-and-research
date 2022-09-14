@@ -25,6 +25,7 @@
 .toSet
 .toMutableSet()
 .toMap
+.toMutableMap()
 
 //===Array===
 
