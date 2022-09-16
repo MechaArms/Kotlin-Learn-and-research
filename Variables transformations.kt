@@ -1,5 +1,8 @@
 //variables transformations:
 
+// var x: Type
+// var y = x.toType()
+
 //===Numbers===
 
 .toByte()
