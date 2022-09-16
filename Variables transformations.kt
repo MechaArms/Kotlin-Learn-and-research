@@ -11,7 +11,9 @@
 .toBigInteger()
 .toBigDecimal()
 
-.toBoolean
+//===Bolean===
+
+.toBoolean()
 
 //===Text===
 
@@ -20,11 +22,11 @@
 
 //===Colections===
 
-.toList
+.toList()
 .toMutableList()
-.toSet
+.toSet()
 .toMutableSet()
-.toMap
+.toMap()
 .toMutableMap()
 
 //===Array===
