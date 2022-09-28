@@ -1,6 +1,6 @@
 [![Kotlin Badge](https://img.shields.io/badge/Kotlin-v1.710-884dff?style=flat-square&logo=Kotlin)](https://kotlinlang.org)
 
-#Commonly used numeric types
+# Commonly used numeric types
 | Type |                          Bits                                | Max Value                                                    | Min Value    |
 | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------: |
 |Byte  |  8   | 127                       | -128 |
