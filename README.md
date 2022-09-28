@@ -11,7 +11,8 @@
 |Double|  64  | 1.7976931348623157E308    | 4.9E-324 |
 
 
-#Links for Research Tips:
+
+# Links for Research Tips:
 
 https://kotlinlang.org/docs/home.html
 
@@ -22,7 +23,3 @@ https://www.tutorialkart.com/kotlin-tutorial/
 https://www.programiz.com/kotlin-programming/
 
 https://www.tutorialspoint.com/questions/category/kotlin
-
-About Imputs:
-
-https://stackoverflow.com/questions/41283393/reading-console-input-in-kotlin
