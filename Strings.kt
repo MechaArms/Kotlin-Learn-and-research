@@ -7,35 +7,37 @@ Some important properties and functions are:
 
 Kotlin String Properties:
 -------------------------
-length: Represents the length of string.
+*/
+length // Represents the length of string.
 
-lastIndex: Represents the index of last character in string.
-
+lastIndex // Represents the index of last character in string.
+/*
 Kotlin String Methods:
 ---------------------
-get(index): Returns the character at the specified index in the string or throws IndexOutOfBoundsException.
+*/
+get(index) // Returns the character at the specified index in the string or throws IndexOutOfBoundsException.
 
-first(): Returns first character in the string or throws NoSuchElementException if string is empty.
+first() // Returns first character in the string or throws NoSuchElementException if string is empty.
 
-last(): Returns last character in the string or throws NoSuchElementException if string is empty.
+last() // Returns last character in the string or throws NoSuchElementException if string is empty.
 
-plus(string): Returns a new string obtained by concatenating the string on which this method is called with the string given as parameter. It will not change the actual string as strings are immutable.
+plus(string) // Returns a new string obtained by concatenating the string on which this method is called with the string given as parameter. It will not change the actual string as strings are immutable.
 
-subSequence(startIndex, endIndex): Returns a sub sequence between the startIndex (inclusive) and endIndex (exclusive).
+subSequence(startIndex, endIndex) // Returns a sub sequence between the startIndex (inclusive) and endIndex (exclusive).
 
-contains(subString, ignoreCase): Returns true if this string contains the given sub string in it. The ignoreCase parameter is as true/false to specify whether to ignore case or not.
+contains(subString, ignoreCase) // Returns true if this string contains the given sub string in it. The ignoreCase parameter is as true/false to specify whether to ignore case or not.
 
-capitalize(): Returns a copy of this string having its first letter uppercased.
+capitalize() // Returns a copy of this string having its first letter uppercased.
 
-decapitalize(): Returns a copy of this string having its first letter lowercased.
+decapitalize() // Returns a copy of this string having its first letter lowercased.
 
-reversed(): Returns a string with characters in reversed order.
+reversed() // Returns a string with characters in reversed order.
 
-toLowerCase(): Returns a copy of this string converted to lower case.
+toLowerCase() // Returns a copy of this string converted to lower case.
 
-toUpperCase(): Returns a copy of this string converted to upper case.
+toUpperCase() // Returns a copy of this string converted to upper case.
 
-
+/*
 Let us use thesem methods and properties in an example:
 -------------------------------------------------------
 */
