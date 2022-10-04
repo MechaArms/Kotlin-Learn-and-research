@@ -37,24 +37,24 @@ If we want to fix the type the elements in an array, the type can be mentioned a
 Now in the array defined above, only integer values can be stored.
 
 To restrict the array to store data for a specific type only, we can use the type specific functions too in Kotlin. They are:
+*/
+intArrayOf() // For integer array
 
-intArrayOf() - For integer array
+charArrayOf() // For character array
 
-charArrayOf() - For character array
+byteArrayOf() // For byte array
 
-byteArrayOf() - For byte array
+shortArrayOf() // For short value array
 
-shortArrayOf() - For short value array
+longArrayOf() // For long value array
 
-longArrayOf() - For long value array
+doubleArrayOf() // For double value array
 
-doubleArrayOf() - For double value array
+floatArrayOf() // For float value array
 
-floatArrayOf() - For float value array
+booleanArrayof() // For boolean value array
 
-booleanArrayof() - For boolean value array
-
-Let's take a simple code example using all the above functions: */
+// Let's take a simple code example using all the above functions: 
 
 var intArray = intArrayOf(1,2,3,4,5)
 var charArray = charArrayOf('a','b','c')
