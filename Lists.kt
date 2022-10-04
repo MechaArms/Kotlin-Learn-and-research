@@ -29,11 +29,12 @@ fun main() {
     println("Printing $specificList")
 }
 
-Printing [Ninja, 10, 1.05, a]
-Printing [Ninja, Study, tonight]
 /*
 OUTPUT:
 =======
+Printing [Ninja, 10, 1.05, a]
+Printing [Ninja, Study, tonight]
+
 Here we've created two list, one of generic type and one of strings.
 
 Kotlin Iterate over a list:
