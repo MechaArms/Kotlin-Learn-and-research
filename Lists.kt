@@ -62,32 +62,31 @@ Some important functions and properties provided in List interface are:
 
 Properties:
 ----------
+*/
+size: // Represents the number of elements present in the list.
 
-size: Represents the number of elements present in the list.
-
-lastIndex: Represents the index of last element in the list.
-
+lastIndex: // Represents the index of last element in the list.
+/*
 Functions:
 ---------
-
-get(index): Returns the element at the specified index in the list or throws IndexOutOfBoundsException.
-
-contains(element): Returns true if element exists in the list or returns false.
-
-indexOf(element): Returns the index of the first occurrence of the specified element in the list, or -1 if the specified element is not contained in the list.
-
-lastIndexOf(element): Returns the index of the last occurrence of the specified element in the list, or -1 if the specified element is not contained in the list.
-
-first(): Returns first element in list or throws NoSuchElementException if list is empty.
-
-last(): Returns last element in list or throws NoSuchElementException if list is empty.
-
-isEmpty(): Returns true if list is empty else false.
-
-subList(start, end): Returns a sub list between the start (inclusive) and end (exclusive).
-
-The example of the same is:
 */
+get(index): // Returns the element at the specified index in the list or throws IndexOutOfBoundsException.
+
+contains(element): // Returns true if element exists in the list or returns false.
+
+indexOf(element): // Returns the index of the first occurrence of the specified element in the list, or -1 if the specified element is not contained in the list.
+
+lastIndexOf(element): // Returns the index of the last occurrence of the specified element in the list, or -1 if the specified element is not contained in the list.
+
+first(): // Returns first element in list or throws NoSuchElementException if list is empty.
+
+last(): // Returns last element in list or throws NoSuchElementException if list is empty.
+
+isEmpty(): // Returns true if list is empty else false.
+
+subList(start, end): // Returns a sub list between the start (inclusive) and end (exclusive).
+
+// The example of the same is:
 
 fun main() {
     val list = listOf<String>("Ninja", "Study", "tonight", "Ninja", "Kotlin")
@@ -160,21 +159,20 @@ Printing [Ninja, 10, 1.05, a]
 Printing [Ninja, Study, tonight]
 
 All the properties and methods which are present in immutable lists are also present in case of mutable lists. Mutable list has some extra functions to support mutability:
-
-add(element): Adds the specified element to the end of the list.
-
-add(index, element): Inserts an element into the list at the specified index.
-
-remove(element): Removes first occurrence of element from list.
-
-removeAt(index): Removes an element at the specified index from the list.
-
-set(index, element): Replaces the element at the specified index in this list with the specified element.
-
-clear(): Removes all elements of the list.
-
-Example using these methods:
 */
+add(element): // Adds the specified element to the end of the list.
+
+add(index, element): // Inserts an element into the list at the specified index.
+
+remove(element): // Removes first occurrence of element from list.
+
+removeAt(index): // Removes an element at the specified index from the list.
+
+set(index, element): // Replaces the element at the specified index in this list with the specified element.
+
+clear(): // Removes all elements of the list.
+
+// Example using these methods:
 
 fun main() {
     val list = mutableListOf<String>("Ninja", "Study", "tonight", "Ninja", "Kotlin")
